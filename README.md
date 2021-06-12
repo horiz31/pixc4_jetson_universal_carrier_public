@@ -5,7 +5,10 @@ This project is intended to help users design a custom carrier board for the Pix
 
 A STEP file with 3D models is available here: https://drive.google.com/file/d/1p-Tw4490VoOuMsqg2tXlwOgqGBfQfWUK/view?usp=sharing
 
-## Power
+Designed in KiCad 5.1.8. KiCad is available for free download: https://www.kicad.org/download/
+
+## Design Notes
+#### Power
 Power regulation is handled by two TI TPS54561QDPRRQ1 dc-dc converters. One is used to power the +5V bus, which is used to power the Nvidia Jetson. The other is used to power the +5V_FMU bus which is used to power the FMU. In general it is good design practice to separate the power system between that used for the Jetson and the FMU as we have done in this design. This way, even if an issue causes the Jetson bus to go into over-current protection, the core FMU may remain functional.
 
 It is possible to implement a Power Selection Unit (PSU) for the FMU, providing even further redundancy. The ~VDD_POWERA_VALID and ~VDD_POWERB_VALID lines can be used in conjunction with a PSU to inform the FMU about the active power source. Note that the FMU USB port on the PixC4-Jetson can also power the FMU system, as this is useful for setup and downloading log files. 
