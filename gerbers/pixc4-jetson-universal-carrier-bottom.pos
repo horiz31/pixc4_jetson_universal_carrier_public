@@ -1,0 +1,18 @@
+### Module positions - created on 06/12/21 11:04:03 ###
+### Printed by Pcbnew version kicad (5.1.8)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                                    PosX       PosY       Rot  Side
+J7        Conn_01x03   JST_GH_SM03B-GHS-TB_03x1.25mm_Angled    55.4203  -104.4016   90.0000  bottom
+J8        Conn_01x22   505110-2291                             84.7725   -81.3232    0.0000  bottom
+J9        Conn_01x04   JST_GH_SM04B-GHS-TB_04x1.25mm_Angled   143.3982   -89.6341  270.0000  bottom
+J14       504050-0691  Molex-504050-0691-0-0-MFG              113.9267   -81.6037  180.0000  bottom
+J17       Conn_01x04   JST_GH_SM04B-GHS-TB_04x1.25mm_Angled    55.4203  -114.0626   90.0000  bottom
+J18       Conn_01x06   JST_GH_SM06B-GHS-TB_06x1.25mm_Angled    55.4203  -125.5737   90.0000  bottom
+J21       Conn_01x04   JST_GH_SM04B-GHS-TB_04x1.25mm_Angled   143.3982   -98.7694  270.0000  bottom
+J22       Conn_01x04   JST_GH_SM04B-GHS-TB_04x1.25mm_Angled   143.3982  -107.9047  270.0000  bottom
+J23       Conn_01x04   JST_GH_SM04B-GHS-TB_04x1.25mm_Angled   143.3982  -117.0400  270.0000  bottom
+J24       Conn_01x04   JST_GH_SM04B-GHS-TB_04x1.25mm_Angled   143.3982  -126.1753  270.0000  bottom
+R16       1.0K         R_0201                                  54.5017  -135.9662    0.0000  bottom
+R17       1.0K         R_0201                                  55.8860  -135.9408  180.0000  bottom
+## End
