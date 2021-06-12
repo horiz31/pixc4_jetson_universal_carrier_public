@@ -1,4 +1,4 @@
-# pixc4_jetson_universal_carrier_public
+# PixC4 Jetson Universal Carrier Board Design Template
 Schematic and Kicad board design for a PixC4-Jetson Universal Carrier Board
 
 This project is intended to help users design a custom carrier board for the PixC4-Jetson. It contains a verified working design providing wide-input DC power regulation and typical connector pinouts.
